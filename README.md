@@ -7,6 +7,11 @@ request-looping requires [Node.js](https://nodejs.org/) to run.
 
 Download and extract the [request-lopping](https://github.com/jjonathan/request-looping) to your node_modules folder.
 
+Install the dependencies:
+```sh
+$ npm install -d
+```
+
 ### Usage
 
 ```javascript
