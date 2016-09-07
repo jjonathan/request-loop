@@ -1,0 +1,2 @@
+{ "name" : "request-looping",
+  "main" : "lib/request-looping.js" }
