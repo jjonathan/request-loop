@@ -1,2 +1,27 @@
-{ "name" : "request-looping",
-  "main" : "lib/request-looping.js" }
+{
+  "name": "request-looping",
+  "main": "lib/request-looping.js",
+  "version": "1.0.0",
+  "description": "A node package that makes a loopping in a pre-configured url",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjonathan/request-looping.git"
+  },
+  "keywords": [
+    "request;",
+    "looping;",
+    "node"
+  ],
+  "author": "Jonathan Machado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjonathan/request-looping/issues"
+  },
+  "homepage": "https://github.com/jjonathan/request-looping#readme",
+  "devDependencies" : {
+    "cli-spinner": "^1.0.0"
+  }
+}
