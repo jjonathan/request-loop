@@ -21,7 +21,7 @@
     "url": "https://github.com/jjonathan/request-looping/issues"
   },
   "homepage": "https://github.com/jjonathan/request-looping#readme",
-  "devDependencies" : {
+  "dependencies" : {
     "cli-spinner": "^1.0.0"
   }
 }
