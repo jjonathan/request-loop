@@ -9,7 +9,7 @@ Download and extract the [request-lopping](https://github.com/jjonathan/request-
 
 Install the dependencies:
 ```sh
-$ npm install -d
+$ npm install
 ```
 
 ### Usage
