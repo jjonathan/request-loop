@@ -1,7 +1,7 @@
 {
   "name": "request-looping",
   "main": "lib/request-looping.js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A node package that makes a loopping in a pre-configured url",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,8 +20,8 @@
   "bugs": {
     "url": "https://github.com/jjonathan/request-looping/issues"
   },
-  "homepage": "https://github.com/jjonathan/request-looping#readme",
-  "dependencies" : {
-    "cli-spinner": "^1.0.0"
+  "homepage": "https://github.com/jjonathan/request-looping",
+  "dependencies": {
+    "cli-spinner": "0.2.5"
   }
 }
