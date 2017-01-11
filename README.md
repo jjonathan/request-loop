@@ -1,16 +1,16 @@
-# request-looping
-A package that make a lopping request in a url.
+# request-loop
+A package that make a lopping in a url.
 
 ### Installation
 
 ```sh
-$ npm install request-looping
+$ npm install request-loop
 ```
 
 ### Usage
 
 ```javascript
-var Request = require('request-looping').Request;
+var Request = require('request-loop').Request;
 var request = new Request();
 
 request.setHost('localhost');
