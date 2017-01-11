@@ -3,7 +3,7 @@ A package that make a lopping request in a url.
 
 ### Installation
 
-request-looping requires [Node.js](https://nodejs.org/) to run.
+request-looping requires [Node.js](https://nodejs.org/) to run
 
 Download and extract the [request-lopping](https://github.com/jjonathan/request-looping) to your node_modules folder.
 
