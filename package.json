@@ -1,27 +1,35 @@
 {
-  "name": "request-loop",
-  "main": "lib/request-loop.js",
-  "version": "1.0.0",
+  "name": "request-looping",
+  "main": "lib/request-looping.js",
+  "version": "2.0.7",
   "description": "A node package that makes a loopping in a pre-configured url",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jjonathan/request-loop.git"
+    "url": "git+https://github.com/jjonathan/request-looping.git"
   },
   "keywords": [
     "request",
-    "loop",
+    "looping",
     "url"
   ],
-  "author": "Jonathan Machado",
+  "author": {
+    "name": "Jonathan Machado"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jjonathan/request-loop/issues"
+    "url": "https://github.com/jjonathan/request-looping/issues"
   },
-  "homepage": "https://github.com/jjonathan/request-loop",
+  "homepage": "https://github.com/jjonathan/request-looping",
   "dependencies": {
     "cli-spinner": "0.2.5"
-  }
+  },
+  "readme": "# request-looping\r\nA package that make a lopping request in a url.\r\n\r\n### Installation\r\n\r\n```sh\r\n$ npm install request-looping\r\n```\r\n\r\n### Usage\r\n\r\n```javascript\r\nvar Request = require('request-looping').Request;\r\nvar request = new Request();\r\n\r\nrequest.setHost('localhost');\r\nrequest.setPort('8083');\r\nrequest.setPath('/helloworld.php');\r\nrequest.setTimeReload('30');\r\n\r\nrequest.start();\r\n```\r\n",
+  "readmeFilename": "README.md",
+  "gitHead": "acaddaf1bb66a80c4bd359cbe8b69268b0bda922",
+  "_id": "request-looping@2.0.7",
+  "_shasum": "80b6d3061175b68e9917b21292eadc247bada08b",
+  "_from": "request-looping@latest"
 }
